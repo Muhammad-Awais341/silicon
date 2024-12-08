@@ -1,0 +1,54 @@
+.features {
+    text-align: center;
+    padding-block: var(--section-spacing);
+
+    .phone {
+        display: none;
+    }
+
+    .features-grid {
+        display: grid;
+        gap: 2rem;
+        margin-top: 4rem;
+    }
+
+    .feature-card{
+        display: flex;
+        text-align: start;
+        gap: 1rem;
+        align-items: flex-start;
+    }
+    .icon-container {
+        background-color: var(--clr-logo-bg);
+        padding: 1rem;
+        border-radius: var(--br-1);
+        flex-shrink: 0;
+    }
+
+    @media (width > 768px) {
+        .features-grid {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem 3rem;
+        }
+    }
+
+    @media (width > 1200px) {
+        text-align: start;
+        .container {
+            display: flex;
+            gap: 4rem;
+        }
+        .phone {
+            display: block;
+        }
+        .text {
+            flex: 1;
+        }
+    }
+
+    @media (width > 1400px) {
+        .container {
+            gap: 10rem;
+        }
+    }
+}

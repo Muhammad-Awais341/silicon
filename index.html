@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mobile banking app with easy payments, data security, and 24/7 support">
+    <title>Banking App - Manage Your Money in One Place</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/showcase.css">
+    <link rel="stylesheet" href="./css/logos.css">
+    <link rel="stylesheet" href="./css/appfeatures.css">
+    <link rel="stylesheet" href="./css/carousel.css">
+    <link rel="stylesheet" href="./css/featuredetail.css">
+    <link rel="stylesheet" href="./css/reviews.css">
+    <link rel="stylesheet" href="./css/footer.css">
+</head>
+
+<body>
+    <nav class="main-nav" role="navigation" aria-label="main navigation">
+        <a href="#main" class="skip-content-link">
+            Skip to main content
+        </a>
+        <div class="container">
+            <a href="/">
+                <img src="./resources/images/icon-logo.svg" alt="Company Logo" />
+            </a>
+            <div class="darkmode-toggle-btn">
+                <p>Dark Mode</p>
+                <label class="toggle-btn">
+                    <input type="checkbox" id="darkmode-btn">
+                    <span class="slider"></span>
+                </label>
+            </div>
+            <button class="menu-btn" aria-controls="main-menu" aria-expanded="false" aria-label="toggle-navigation">
+                <img src="/resources/icons/hamburger.svg" alt="">
+            </button>
+            <ul id="main-menu" class="main-menu">
+                <li>
+                    <a href="#" class="nav-link">Features</a>
+                </li>
+                <li>
+                    <a href="" class="btn btn-primary">
+                        <img src="/resources/images/user-icon.svg" alt="">
+                        <span>Sign in / up</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main id="main">
+        <!-- showcase section -->
+        <section class="show-case" aria-label="show-case">
+            <div class="container space-y-3">
+                <h1 class="display-4">Manage All Your Money in One App</h1>
+                <div class="content space-y-3">
+                    <p class="text-lg">We offer you a new generation of the mobile banking. Save, spend & manage money in your pocket.</p>
+                    <div class="market-btns">
+                        <a href="#" class="store-btn">
+                            <img src="/resources/images/app-store.svg" alt="" class="">
+                        </a>
+                        
+                        <a href="#" class="store-btn">
+                            <img src="/resources/images/play-store.svg" alt="" class="">
+                        </a>
+                    </div>
+                    <div class="more">
+                        <a href="#features" class="btn-round btn-white">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </a>
+                        <span>Discover more</span>
+                    </div>
+                </div>
+                <div class="phone-img-container">
+                    <img src="/resources/images/image.svg" alt="iphones" class="">
+                </div>
+            </div>
+        </section>
+
+        <!-- customer section -->
+         <section aria-label="our customers" class="logos">
+            <div class="container">
+                <div class="logo-card">
+                    <img src="/resources/logos/logoipsum.png">
+                </div>
+                <div class="logo-card">
+                    <img src="/resources/logos/logoipsum (1).png">
+                </div>
+                <div class="logo-card">
+                    <img src="/resources/logos/logoipsum (2).png">
+                </div>
+                <div class="logo-card">
+                    <img src="/resources/logos/logoipsum (3).png">
+                </div>
+                <div class="logo-card">
+                    <img src="/resources/logos/logoipsum (4).png">
+                </div>
+                <div class="logo-card">
+                    <img src="/resources/logos/logoipsum (5).png">
+                </div>
+            </div>
+         </section>
+
+         <!-- app features -->
+         <section aria-label="App features" class="features">
+            <div class="container">
+                <div class="phone">
+                    <img src="/resources/images/phone-image.png">
+                </div>
+                <div class="text space-y-1">
+                    <h2 class="heading-1">App Features</h2>
+                    <p class="text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin volutpat mollis egestas. Nam luctus facilisis ultrices. Pellentesque volutpat ligula est. Mattis fermentum, at nec lacus.</p>
+                    
+                    <div class="features-grid">
+                        
+                        <div class="feature-card">
+                            <div class="icon-container">
+                                <img src="/resources/icons/credit-card.png" alt="">
+                            </div>
+                            <div class="space-y-1">
+                                <h3 class="heading-5">Easy Payments</h3>
+                                <p>Id mollis consectetur congue egestas egestas suspendisse blandit justo.</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-card flex">
+                            <div class="icon-container">
+                                <img src="/resources/icons/shield.png" alt="">
+                            </div>
+                            <div class="space-y-1">
+                                <h3 class="heading-5">Data Security</h3>
+                                <p>Augue pulvinar justo, fermentum fames aliquam accumsan vestibulum non. </p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-card flex">
+                            <div class="icon-container">
+                                <img src="/resources/icons/bars-graphic.png" alt="">
+                            </div>
+                            <div class="space-y-1">
+                                <h3 class="heading-5">Cost Statistics</h3>
+                                <p>Mattis urna ultricies non amet, purus in auctor non. Odio vulputate ac nibh.</p>
+                            </div>
+                        </div>
+
+                        
+                        <div class="feature-card flex">
+                            <div class="icon-container">
+                                <img src="/resources/icons/communication.png" alt="">
+                            </div>
+                            <div class="space-y-1">
+                                <h3 class="heading-5">Support 24/7</h3>
+                                <p>A elementum, imperdiet enim, pretium etiam facilisi in aenean quam mauris.</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-card flex">
+                            <div class="icon-container">
+                                <img src="/resources/icons/wallet.png" alt="">
+                            </div>
+                            <div class="space-y-1">
+                                <h3 class="heading-5">Regular Cashback</h3>
+                                <p>Sit facilisis dolor arcu, fermentum vestibulum arcu elementum imperdiet eleifend.</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-card flex">
+                            <div class="icon-container">
+                                <img src="/resources/icons/happy.png" alt="">
+                            </div>
+                            <div class="space-y-1">
+                                <h3 class="heading-5">Top Standards</h3>
+                                <p>Faucibus cursus maecenas lorem cursus nibh. Sociis sit risus id. Sit facilisis dolor arcu.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+         </section>
+
+         <!-- how does it work -->
+        <section aria-label="How does it work" class="carousel-section">
+            <div class="container space-y-3">
+                <h2 class="heading-1">How Does It Work?</h2>
+                <div class="carousel">
+                    <div class="carousel-item">
+                        <img src="/resources/images/how-it-works-1.png" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/resources/images/how-it-works-1.png" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/resources/images/how-it-works-1.png" alt="">
+                    </div>
+                </div>
+                <div class="text">
+                    <h3 class="heading-4">Latest transaction history</h3>
+                    <p>Enim, et amet praesent pharetra. Mi non ante hendrerit amet sed. Arcu sociis tristique quisque hac in consectetur condimentum. </p>
+                </div>
+            </div>
+
+        </section>
+
+        <!--  -->
+        <section aria-label="detail features" class="detail-feature">
+            <div class="detail-features container">
+                <div class="detail-1">
+                    <h3 class="heading-1">Make your money transfer simple and clear</h3>
+                    <div class="list-items">
+                        <div class="list-item">
+                            <div class="list-item-check">
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+                            <p class="text-lg">Banking transactions are free for you</p>
+                        </div>
+                        <div class="list-item">
+                            <div class="list-item-check">
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+                            <p class="text-lg">No monthly cash commission</p>
+                        </div>
+                        <div class="list-item">
+                            <div class="list-item-check">
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+                            <p class="text-lg">Manage payments and transactions online</p>
+                        </div>
+                    </div>
+                    <button class="learn-more-btn">
+                        <p>Learn more </p>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+                <div class="empty"></div>
+            </div>
+            <div class="detail-features container">
+                <div class="empty"></div>
+                <div class="detail-2">
+                    <h3 class="heading-1">Receive payments from internationl bank details</h3>
+                    <div class="detail-2-content">
+                        <div class="detail-card">
+                            <div class="detail-icon-container">
+                                <img src="/resources/images/easy-payments-icon.svg" alt="">
+                            </div>
+                            <p>Manage your payments online. Mollis congue egestas egestas fermentum fames.</p>
+                        </div>
+                        <div class="detail-card">
+                            <div class="detail-icon-container">
+                                <img src="/resources/images/wallet-with-money.svg" alt="">
+                            </div>
+                            <p>A elementur and imperdiet enim, pretium etiam facilisi aenean quam mauris.</p>
+                        </div>
+                    </div>
+                    <button class="learn-more-btn">
+                        <p>Learn more </p>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <div class="testimonials-container container">
+                <h2>Clients are Loving Our App</h2>
+                <div class="testimonial-cards">
+                  <div class="card">
+                    <i class="fa-solid fa-quote-left fa-xl quote"></i>
+                    <div class="stars">
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-regular fa-star" style="color: #828487;"></i>
+                    </div>
+                    <p>
+                      Sit pretium aliquam tempor, orci dolor sed maecenas rutrum sagittis.
+                      Laoreet posuere rhoncus, egestas lacus, egestas justo aliquam vel.
+                      Nisi vitae lectus hac hendrerit. Montes justo turpis sit amet.
+                    </p>
+                    <h3>Fannie Summers</h3>
+                    <p class="role">Designer</p>
+                  </div>
+                  <div class="card">
+                    <i class="fa-solid fa-quote-left fa-xl quote"></i>
+                    <div class="stars">
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    </div>
+                    <p>
+                      Nunc senectus leo vel venenatis accumsan vestibulum sollicitudin amet porttitor.
+                      Nisl bibendum nulla tincidunt eu enim ornare dictumst sit amet. Dictum pretium
+                      dolor tincidunt egestas eget nunc.
+                    </p>
+                    <h3>Albert Flores</h3>
+                    <p class="role">Developer</p>
+                  </div>
+                </div>
+            </div>
+          </section>
+
+
+
+        <!-- reviews  -->
+         <!-- <section aria-label="reviews" class="bg-[#F3F6FF]">
+            <div class="container flex flex-row pt-36 pb-36">
+                <h1 class="heading-1">Clients are Loving Our App</h1>
+                <div class="review-boxes flex flex-row gap-4 container">
+                    <div class="review-box border rounded-xl bg-white shadow-lg ">
+                        <i class="fa-solid fa-quote-left fa-xl quote-icon bg-[#6366F1] shadow-xl py-8 px-6" style="color: #ffffff;"></i>
+                        <div class="stars-container">
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-regular fa-star" style="color: #828487;"></i>
+                        </div>
+                        <p class="text-2xl review-text">Sit pretium aliquam tempor, orci dolor sed maecenas rutrum sagittis. Laoreet posuere rhoncus, egestas lacus, egestas justo aliquam vel. Nisi vitae lectus hac hendrerit. Montes justo turpis sit amet.</p>
+                        <div class="reviewer">
+                            <p class="name text-2xl font-bold">Fannie Summers</p>
+                            <p class="role text-xl">Designer</p>
+                        </div>
+                    </div>
+                    <div class="review-box border rounded-xl bg-white shadow-lg">
+                        <i class="fa-solid fa-quote-left fa-xl quote-icon bg-[#6366F1] shadow-xl py-8 px-6" style="color: #ffffff;"></i>
+                        <div class="stars-container">
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                        </div>
+                        <p class="text-2xl review-text">Nunc senectus leo vel venenatis accumsan vestibulum sollicitudin amet porttitor. Nisl bibendum nulla tincidunt eu enim ornare dictumst sit amet. Dictum pretium dolor tincidunt egestas eget nunc.</p>
+                        <div class="reviewer">
+                            <p class="name text-2xl font-bold">Albert Flores</p>
+                            <p class="role text-xl">Devloper</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section> -->
+
+         <footer class="footer">
+            <i class="fa-regular fa-registered"></i>
+             Silicon. All rights reserved. Credit Medras Themes
+         </footer>
+    </main>
+
+
+    <script src="/script.js" defer></script>
+</body>
+
+</html>

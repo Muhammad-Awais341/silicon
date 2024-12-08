@@ -1,0 +1,22 @@
+.carousel-section {
+    padding-block: var(--section-spacing);
+    background-color: var(--clr-gray-100);
+    text-align: center;
+
+    .carousel {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .text {
+        max-width: 70ch;
+        margin-inline: auto;
+    }
+
+    @media (width < 768px) {
+        .carousel-item:first-of-type,
+        .carousel-item:last-of-type {
+            display: none;
+        }   
+    }
+}
